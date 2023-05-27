@@ -90,13 +90,9 @@ body {
   font-size: 30px;
 }
 
-.miniheader {
-  margin-top: 90px;
-  margin-bottom: 0;
-  font-size: 18px;
-}
-
 .body-text {
+  margin-top: 8px;
+  margin-bottom: 4px;
   font-size: 14px;
   font-family: "quicksandlight", Arial, Helvetica, sans-serif;
 }
@@ -166,4 +162,29 @@ body {
   padding-left: 32px;
   padding-right: 32px;
   border-right: 1px solid var(--lightgray);
+}
+
+.education-miniheader {
+  margin-top: 100px;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-row: 2 / 5;
+  grid-column: 3 / 6;
+  padding: 32px;
+}
+
+.experience-miniheader {
+  margin-top: 28px;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+.job-description-list {
+  padding: 0;
 }

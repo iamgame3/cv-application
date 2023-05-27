@@ -12,12 +12,12 @@ class Education extends Component {
     return (
       <div className="education">
         <h2 className="subheader">Education</h2>
-        <h4 className="miniheader">Secondary School</h4>
+        <h4 className="education-miniheader">Secondary School</h4>
         <p className="body-text">Overrated Secondary School</p>
-        <p className="time-range">2015-2019</p>
-        <h4 className="miniheader">Bachelor Of Technology</h4>
+        <p className="time-range">2005-2009</p>
+        <h4 className="education-miniheader">Bachelor Of Technology</h4>
         <p className="body-text">Overrated University</p>
-        <p className="time-range">2020-2022</p>
+        <p className="time-range">2010-2012</p>
       </div>
     );
   }
