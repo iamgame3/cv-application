@@ -1,6 +1,7 @@
 /* eslint-disable react/prefer-stateless-function */
 /* eslint-disable react/jsx-filename-extension */
 import React, { Component } from "react";
+import ContactInfo from "./contact-info";
 
 class Body extends Component {
   // eslint-disable-next-line no-useless-constructor
@@ -11,9 +12,7 @@ class Body extends Component {
   render() {
     return (
       <div className="body">
-        <div className="contact-info">
-            1
-        </div>
+        <ContactInfo />
         <div className="profile">
             2
         </div>
