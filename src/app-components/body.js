@@ -3,6 +3,7 @@
 import React, { Component } from "react";
 import ContactInfo from "./contact-info";
 import Profile from "./profile";
+import Education from "./education";
 
 class Body extends Component {
   // eslint-disable-next-line no-useless-constructor
@@ -15,7 +16,7 @@ class Body extends Component {
       <div className="body">
         <ContactInfo />
         <Profile />
-        <div className="education">3</div>
+        <Education />
         <div className="experience">4</div>
       </div>
     );

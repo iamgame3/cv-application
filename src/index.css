@@ -90,9 +90,21 @@ body {
   font-size: 30px;
 }
 
+.miniheader {
+  margin-top: 90px;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
 .body-text {
   font-size: 14px;
   font-family: "quicksandlight", Arial, Helvetica, sans-serif;
+}
+
+.time-range {
+  margin: 0;
+  font-size: 14px;
+  font-family: "quicksandlight_italic", Arial, Helvetica, sans-serif;
 }
 
 .contact-info {
@@ -144,6 +156,14 @@ body {
 }
 
 .education {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   grid-row: 2 / 5;
   grid-column: 1 / 3;
+  margin-bottom: 32px;
+  padding-top: 32px;
+  padding-left: 32px;
+  padding-right: 32px;
+  border-right: 1px solid var(--lightgray);
 }
