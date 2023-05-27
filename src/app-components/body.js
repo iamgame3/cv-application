@@ -2,6 +2,7 @@
 /* eslint-disable react/jsx-filename-extension */
 import React, { Component } from "react";
 import ContactInfo from "./contact-info";
+import Profile from "./profile";
 
 class Body extends Component {
   // eslint-disable-next-line no-useless-constructor
@@ -13,15 +14,9 @@ class Body extends Component {
     return (
       <div className="body">
         <ContactInfo />
-        <div className="profile">
-            2
-        </div>
-        <div className="education">
-            3
-        </div>
-        <div className="experience">
-            4
-        </div>
+        <Profile />
+        <div className="education">3</div>
+        <div className="experience">4</div>
       </div>
     );
   }

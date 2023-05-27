@@ -15,22 +15,34 @@ class ContactInfo extends Component {
   render() {
     return (
       <div className="contact-info">
-            <div className="email-container">
-                <img className="email-icon" src={ email } alt="Icon of an email" />
-                <p className="email-text">email@example.com</p>
-            </div>
-            <div className="cellphone-container">
-                <img className="cellphone-icon" src={ cellphone } alt="Icon of an cellphone" />
-                <p className="cellphone-text">123-456-7890</p>
-            </div>
-            <div className="location-container">
-                <img className="location-icon" src={ location } alt="Icon of an map location indicator" />
-                <p className="location-text">Dubai, UAE</p>
-            </div>
-            <div className="website-container">
-                <img className="website-icon" src={ website } alt="Icon of an website" />
-                <p className="website-text">www.NotARealWebsite.com</p>
-            </div>
+        <div className="email-container">
+          <img className="email-icon" src={email} alt="Icon of an email" />
+          <p className="email-text">email@example.com</p>
+        </div>
+        <div className="cellphone-container">
+          <img
+            className="cellphone-icon"
+            src={cellphone}
+            alt="Icon of an cellphone"
+          />
+          <p className="cellphone-text">123-456-7890</p>
+        </div>
+        <div className="location-container">
+          <img
+            className="location-icon"
+            src={location}
+            alt="Icon of an map location indicator"
+          />
+          <p className="location-text">Dubai, UAE</p>
+        </div>
+        <div className="website-container">
+          <img
+            className="website-icon"
+            src={website}
+            alt="Icon of an website"
+          />
+          <p className="website-text">www.NotARealWebsite.com</p>
+        </div>
       </div>
     );
   }
