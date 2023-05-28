@@ -78,6 +78,63 @@ class EditModal extends Component {
     );
   }
 
+  // eslint-disable-next-line class-methods-use-this
+  applyEdits() {
+    document.querySelector(".edit-modal").style.visibility = "hidden";
+    document.querySelector(".edit-modal-background").style.visibility =
+      "hidden";
+    document.querySelector(".name").textContent =
+      document.querySelector("#name-input").value;
+    document.querySelector(".job").textContent =
+      document.querySelector("#job-input").value;
+    document.querySelector(".email-text").textContent =
+      document.querySelector("#email-input").value;
+    document.querySelector(".cellphone-text").textContent =
+      document.querySelector("#cellphone-input").value;
+    document.querySelector(".location-text").textContent =
+      document.querySelector("#location-input").value;
+    document.querySelector(".website-text").textContent =
+      document.querySelector("#website-input").value;
+    document.querySelector("#profile-text").textContent =
+      document.querySelector("#profile-input").value;
+    document.querySelector("#degree-one").textContent =
+      document.querySelector("#degree-one-input").value;
+    document.querySelector("#school-one").textContent =
+      document.querySelector("#school-one-input").value;
+    document.querySelector("#school-date-range-one").textContent =
+      document.querySelector("#school-date-range-one-input").value;
+    document.querySelector("#degree-two").textContent =
+      document.querySelector("#degree-two-input").value;
+    document.querySelector("#school-two").textContent =
+      document.querySelector("#school-two-input").value;
+    document.querySelector("#school-date-range-two").textContent =
+      document.querySelector("#school-date-range-two-input").value;
+    document.querySelector("#job-one").textContent =
+      document.querySelector("#job-one-input").value;
+    document.querySelector("#company-one").textContent =
+      document.querySelector("#company-one-input").value;
+    document.querySelector("#job-date-range-one").textContent =
+      document.querySelector("#job-date-range-one-input").value;
+    document.querySelector("#job-one-point-one").textContent =
+      document.querySelector("#job-one-point-one-input").value;
+    document.querySelector("#job-one-point-two").textContent =
+      document.querySelector("#job-one-point-two-input").value;
+    document.querySelector("#job-one-point-three").textContent =
+      document.querySelector("#job-one-point-three-input").value;
+    document.querySelector("#job-two").textContent =
+      document.querySelector("#job-two-input").value;
+    document.querySelector("#company-two").textContent =
+      document.querySelector("#company-two-input").value;
+    document.querySelector("#job-date-range-two").textContent =
+      document.querySelector("#job-date-range-two-input").value;
+    document.querySelector("#job-two-point-one").textContent =
+      document.querySelector("#job-two-point-one-input").value;
+    document.querySelector("#job-two-point-two").textContent =
+      document.querySelector("#job-two-point-two-input").value;
+    document.querySelector("#job-two-point-three").textContent =
+      document.querySelector("#job-two-point-three-input").value;
+  }
+
   render() {
     return (
       <>
@@ -277,7 +334,11 @@ class EditModal extends Component {
               </div>
             </div>
             <div className="submit-button-container">
-              <button type="button" className="submit-button">
+              <button
+                type="button"
+                onClick={this.applyEdits}
+                className="submit-button"
+              >
                 Submit
               </button>
             </div>
