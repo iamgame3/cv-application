@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.df06062b.css",
+    "main.js": "/static/js/main.1962e3f6.js",
+    "static/media/quicksand-lightitalic-webfont.woff": "/static/media/quicksand-lightitalic-webfont.d5f815ec239e9dd64641.woff",
+    "static/media/quicksand-regular-webfont.woff": "/static/media/quicksand-regular-webfont.1b0707c1b84333b9027b.woff",
+    "static/media/quicksand-light-webfont.woff": "/static/media/quicksand-light-webfont.dbcba8eab6328e06b23f.woff",
+    "static/media/quicksand-lightitalic-webfont.woff2": "/static/media/quicksand-lightitalic-webfont.a8fefe6014f43834d943.woff2",
+    "static/media/quicksand-regular-webfont.woff2": "/static/media/quicksand-regular-webfont.15ea70ebc5f101e4dbe3.woff2",
+    "static/media/quicksand-light-webfont.woff2": "/static/media/quicksand-light-webfont.80048c0bc97ca653be5b.woff2",
+    "static/media/website.svg": "/static/media/website.449edabfd134688314cbbd50919150a5.svg",
+    "index.html": "/index.html",
+    "static/media/location.svg": "/static/media/location.72e098087414f4d38a4b741d2f9f1aaf.svg",
+    "static/media/email.svg": "/static/media/email.ffe24abaeb56c6af70c15d099f4e98f7.svg",
+    "static/media/cellphone.svg": "/static/media/cellphone.261125e2a03acc2bac764edc64a9b030.svg",
+    "main.df06062b.css.map": "/static/css/main.df06062b.css.map",
+    "main.1962e3f6.js.map": "/static/js/main.1962e3f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df06062b.css",
+    "static/js/main.1962e3f6.js"
+  ]
+}
