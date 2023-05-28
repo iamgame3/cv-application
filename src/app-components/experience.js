@@ -12,21 +12,45 @@ class Experience extends Component {
     return (
       <div className="experience">
         <h2 className="subheader">Experience</h2>
-        <h4 className="experience-miniheader">IT</h4>
-        <p className="body-text">Strange Company</p>
-        <p className="time-range">2009-2012</p>
+        <h4 className="experience-miniheader" id="job-one">
+          IT
+        </h4>
+        <p className="body-text" id="company-one">
+          Strange Company
+        </p>
+        <p className="time-range" id="job-date-range-one">
+          2009-2012
+        </p>
         <ul className="job-description-list">
-          <li className="body-text">Fixed stuff</li>
-          <li className="body-text">Helped people</li>
-          <li className="body-text">Improved processes</li>
+          <li className="body-text" id="job-one-point-one">
+            Fixed stuff
+          </li>
+          <li className="body-text" id="job-one-point-two">
+            Helped people
+          </li>
+          <li className="body-text" id="job-one-point-three">
+            Improved processes
+          </li>
         </ul>
-        <h4 className="experience-miniheader">App Development</h4>
-        <p className="body-text">Interesting Company</p>
-        <p className="time-range">2012-present</p>
+        <h4 className="experience-miniheader" id="job-two">
+          App Development
+        </h4>
+        <p className="body-text" id="company-two">
+          Interesting Company
+        </p>
+        <p className="time-range" id="job-date-range-two">
+          2012-present
+        </p>
         <ul className="job-description-list">
-          <li className="body-text">Built stuff</li>
-          <li className="body-text">Helped users</li>
-          <li className="body-text">Improved processes</li>
+          <li className="body-text" id="job-two-point-one">
+            Built stuff
+          </li>
+          <li className="body-text" id="job-two-point-two">
+            Helped users
+          </li>
+          <li className="body-text" id="job-two-point-three">
+            Improved processes
+          </li>
         </ul>
       </div>
     );

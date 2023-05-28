@@ -12,7 +12,7 @@ class Profile extends Component {
     return (
       <div className="profile">
         <h2 className="subheader">Profile</h2>
-        <p className="body-text">
+        <p className="body-text" id="profile-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempor
           at mi sed elementum. Suspendisse in arcu condimentum, maximus arcu id,
           lobortis justo. Donec ut eros vel lorem volutpat mollis convallis quis
