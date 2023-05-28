@@ -40,6 +40,34 @@ legend {
   font-family: "quicksandregular", Arial, Helvetica, sans-serif;
 }
 
+.edit-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+}
+
+.edit-modal-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.edit-modal {
+  top: calc((100vh - (800px + 64px)) / 2);
+  left: calc((100vw - (700px + 64px)) / 2);
+  position: absolute;
+  visibility: hidden;
+  padding: 32px;
+  width: 700px;
+  height: 800px;
+  background-color: white;
+}
+
 body {
   display: flex;
   justify-content: center;
